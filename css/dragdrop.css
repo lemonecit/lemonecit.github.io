@@ -6,6 +6,7 @@ background-color:red;
 
 body {
 
-background-image:"..img/quiz_BG.jpg";
+
+background-image: url("img/quiz_BG.jpg");
 
 }
