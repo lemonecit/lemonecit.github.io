@@ -1,16 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
-
-
 body {
 
-
-
+	
+	
 }
-
 
 #lyQuiz {
 	width:800px;
-	height:650px;
+	height:800px;
 	position:relative;
 	overflow:hidden;
 	background: rgba(164,179,87,1);
@@ -22,7 +19,7 @@ background: -ms-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 
 background: linear-gradient(to right, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', endColorstr='#75890c', GradientType=1 );
 
-padding:20px;
+
 	
 	
 }
@@ -159,6 +156,9 @@ lyQuiz .quiz {
 } 
 
 #lyQuiz .results .share a.btn.email {
+	
+	
+	
 background-color: #f0a121; background-image:url(../img/icon_mail.png);}
 	
 }
@@ -170,8 +170,11 @@ background-color: #f0a121; background-image:url(../img/icon_mail.png);}
 #lyQuiz .intro.inactive, #lyQuiz.inactive.answered { left: -1350px;}
 
 @media screen and (max-width: 650px) {
+
+	
+	
 	body {padding:0px; margin: 0px;}
-	#lyQuiz {width: 280px; background-size: 320px auto;}
+	#lyQuiz {width: 100%;}
 	#lyQuiz h1 {width: 300px; font-size: 1.3em; top: 25px; left: 25px;}
 	#lyQuiz h1 span {line-height:20px; font-size:1.2em;}
 	#lyQuiz h2 {margin:0px;}
@@ -183,7 +186,7 @@ background-color: #f0a121; background-image:url(../img/icon_mail.png);}
 	#lyQuiz .progress div::after {top:-30px; width:53px; height: 33px;}
 	
 	#lyQuiz .intro {width:300px; top:135px; left: 330px;}
-	#lyQuiz .quiz {width:300px; top: 135px; left: 330px;}
+	#lyQuiz .quiz {width:300px; top: 135px;}
 	#lyQuiz .quiz .txt {font-size:1.4em; margin-bottom: 15px; width:200px;}
 	#lyQuiz .quiz .ans {font-size:1em; padding:5px 10px; margin-bottom: 10px;}
 	#lyQuiz .quiz .ans.img {min-height: 45px; background-size: auto 45px;}
@@ -215,7 +218,7 @@ position: relative;
 }
 	
 	
-	#lyQuiz .results {width: 260px; top:150px; left: 330px;}
+	#lyQuiz .results {width: 260px; top:150px; }
 	#lyQuiz .results .share{margin-top:20px;}
 	#lyQuiz .results .a.btn{margin-bottom:20px;}
 	
