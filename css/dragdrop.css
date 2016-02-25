@@ -171,7 +171,7 @@ background-color: #f0a121; background-image:url(../img/icon_mail.png);}
 
 @media screen and (max-width: 650px) {
 	body {padding:0px; margin: 0px;}
-	#lyQuiz {width: 320px; background-size: 320px auto;}
+	#lyQuiz {width: 280px; background-size: 320px auto;}
 	#lyQuiz h1 {width: 300px; font-size: 1.3em; top: 25px; left: 25px;}
 	#lyQuiz h1 span {line-height:20px; font-size:1.2em;}
 	#lyQuiz h2 {margin:0px;}
