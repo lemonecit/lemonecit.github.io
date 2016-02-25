@@ -173,27 +173,53 @@ background-color: #f0a121; background-image:url(../img/icon_mail.png);}
 	body {padding:0px; margin: 0px;}
 	#lyQuiz {width: 320px; background-size: 320px auto;}
 	#lyQuiz h1 {width: 300px; font-size: 1.3em; top: 25px; left: 25px;}
-	#lyQuiz h1 span {line-height:43px;}
+	#lyQuiz h1 span {line-height:20px; font-size:1.2em;}
 	#lyQuiz h2 {margin:0px;}
-	#lyQuiz h3 {font-size:2.2em; margin-bottom: 15px;}
+	#lyQuiz h3 {font-size:2.2em; margin-bottom: 50px;}
 		
-	#lyQuiz .progress {width:300px; top: 110px; left:35px;}
+	#lyQuiz .progress {width: 300px;top: 90px;left: 25px;}
 	
 	#lyQuiz .progress div {width:25px; height:25px; margin-right:20px;}
 	#lyQuiz .progress div::after {top:-30px; width:53px; height: 33px;}
 	
 	#lyQuiz .intro {width:300px; top:135px; left: 330px;}
-	#lyQuiz .question {width:300px; top: 135px; left: 330px;}
-	#lyQuiz .question .txt {font-size:1.4em; margin-bottom: 15px;}
-	#lyQuiz .question .ans {font-size:1em; padding:5px 10px; margin-bottom: 10px;}
-	#lyQuiz .question .ans.img {min-height: 45px; background-size: auto 45px;}
-	#lyQuiz .question .ans.img:hover {background-color:#000;}
+	#lyQuiz .quiz {width:300px; top: 135px; left: 330px;}
+	#lyQuiz .quiz .txt {font-size:1.4em; margin-bottom: 15px; width:200px;}
+	#lyQuiz .quiz .ans {font-size:1em; padding:5px 10px; margin-bottom: 10px;}
+	#lyQuiz .quiz .ans.img {min-height: 45px; background-size: auto 45px;}
+	#lyQuiz .quiz .ans.img:hover {background-color:#000;}
+	
+	
+	#lyQuiz .quiz .ans.image {
+    min-height: 100px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+    clear: both;
+    display: inline-block;
+    width: 100px;
+}
+	
+	
+	#lyQuiz .quiz .ans {
+clear: both;
+display: block;
+font-size: 1.1em;
+width: 218px;
+border: 2px solid rgba(238,189,102,.4);
+border-radius: 6px;
+padding: 8px;
+margin: 0px 5px 5px 0px;
+position: relative;
+}
+	
 	
 	#lyQuiz .results {width: 260px; top:150px; left: 330px;}
 	#lyQuiz .results .share{margin-top:20px;}
 	#lyQuiz .results .a.btn{margin-bottom:20px;}
 	
-	#lyQuiz .active { left:25px;}
+	#lyQuiz .active { left:20px; width:270px;}
 	#lyQuiz .intro.inactive, #lyQuiz .inactive.answered {left: -650px;}
 	
 }
