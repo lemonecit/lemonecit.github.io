@@ -1,13 +1,13 @@
-[
+﻿[
 {
-	"question" : "Which animal is dangerous",
+	"question" : "כיצד נושמים הדגים?",
 	"answers" : [
-			{ "Id" : 0, "text": "Lion"},
-			{ "Id" : 1, "text": "Monkey"},
-			{ "Id" : 2, "text": "Human"},
-			{ "Id" : 3, "text": "Worm"}
+			{ "Id" : 0, "text": "גז"},
+			{ "Id" : 1, "text": "בנזין"},
+			{ "Id" : 2, "text": "זימים"},
+			{ "Id" : 3, "text": "לא יודע!"}
 	],
-	"correct" : 0
+	"correct" : 2
 
 },
 {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html ng-app="lyQuiz">
+<html ng-app="lyQuiz" lang="he">
   <head >
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>TASK DRAGDROP - ANIMALS QUIZ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -83,10 +83,7 @@
 <p>You scored {{percentage}}% by correctly answering {{score}} of the total {{totalQuestions  }} questions.</p>
 <p>Use this links below to challenge your friends.</p>
 
-<div class="share" ng-bind-html="createShareLinks(percentage)"></div>
-
-
-</div>
+<div class="share" ng-bind-html="createShareLinks(percentage)"></div></br>
 
  </div>
   <script type="text/javascript" src="js/angular.min.js"></script>

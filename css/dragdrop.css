@@ -25,8 +25,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', end
 }
 
 
-#lyQuiz h1 { font-weight:100; font-size:2em; text-transform: uppercase; margin: 0px; position:absolute; top:25px; left:36px
-	font-family:'Ubuntu', sans-serif;  font-weight:400;
+#lyQuiz h1 { font-weight:100; font-size:2em; text-transform: uppercase; margin: 0px; position:absolute; top:25px; font-family:'Ubuntu', sans-serif;  font-weight:400; left:36px; 
 	}
 
 
