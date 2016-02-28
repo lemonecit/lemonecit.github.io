@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 body {
-
-	
-	
 }
 
 #lyQuiz {
@@ -11,37 +8,52 @@ body {
 	position:relative;
 	overflow:hidden;
 	background: rgba(164,179,87,1);
-background: -moz-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(164,179,87,1)), color-stop(100%, rgba(117,137,12,1)));
-background: -webkit-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
-background: -o-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
-background: -ms-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
-background: linear-gradient(to right, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', endColorstr='#75890c', GradientType=1 );
-
-
-	
-	
+	background: -moz-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(164,179,87,1)), color-stop(100%, rgba(117,137,12,1)));
+	background: -webkit-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+	background: -o-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+	background: -ms-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+	background: linear-gradient(to right, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', endColorstr='#75890c', GradientType=1 );
 }
 
 
-#lyQuiz h1 { font-weight:100; font-size:2em; text-transform: uppercase; margin: 0px; position:absolute; top:25px; font-family:'Ubuntu', sans-serif;  font-weight:400; left:36px; 
-	}
+#lyQuiz h1 { 
+
+	font-weight:100; 
+	font-size:2em; 
+	text-transform: uppercase; 
+	margin: 0px; 
+	position:absolute; 
+	top:25px; 
+	font-family:'Ubuntu', sans-serif;  
+	font-weight:400; 
+	left:36px; 
+}
 
 
-#lyQuiz h1 span { display:block; font-weight:900; font-family:'Ubuntu', sans-serif; font-size: 3.2em; line-height:65px;
+#lyQuiz h1 span { 
 
-	}	
-	
+	display:block; 
+	font-weight:900; 
+	font-family:'Ubuntu', sans-serif; 
+	font-size: 3.2em; 
+	line-height:65px;
+
+}	
+
 
 #lyQuiz h2 {font-size:2em; margin:0px; font-weight:100}
 #lyQuiz h3 {font-size:2.2em; margin:0px; font-weight:100}
 #lyQuiz p {margin:0px 0px 14px 0px;}
 #lyQuiz .btn {
-display:inline-block; cursor: pointer; background-color: red; color:white; text-decoration:none; padding:5px 15px; border-radius:6px; 	
-	
-	
-	
+	display:inline-block; 
+	cursor: pointer; 
+	background-color: red; 
+	color:white; 
+	text-decoration:none; 
+	padding:5px 15px; 
+	border-radius:6px; 	
 }
 
 
@@ -50,35 +62,45 @@ display:inline-block; cursor: pointer; background-color: red; color:white; text-
 #lyQuiz .progress { width:550px; position: absolute; top: 160px;  left: 40px;} 
 
 #lyQuiz .progress div {
-	 
-	 position: relative; display: inline-block; width: 30px; height: 30px; margin-right:30px;
-	 border-radius:50%; background-color: rgba(255,255,255,.2); transition: background-color 1s;
-	
-	
+ 
+	position: relative; 
+	display: inline-block; 
+	width: 30px; 
+	height: 30px; 
+	margin-right:30px;
+	border-radius:50%; 
+	background-color: rgba(255,255,255,.2); 
+	transition: background-color 1s;
+
+
 } 
 
 
 #lyQuiz .progress div::after {
-	
-	content:''; display:block; position: absolute; top: -60px;  left: -15px; width:65px; height: 40px;
-	background: url(../img/star.png) no-repeat 0px 0px; background-size:35px;
-	transition: opacity 1s, top 1s; opacity:0;
-	
-	
+
+	content:''; 
+	display:block; 
+	position: absolute; 
+	top: -60px;  
+	left: -15px; 
+	width:65px; 
+	height: 40px;
+	background: url(../img/star.png) no-repeat 0px 0px; 
+	background-size:35px;
+	transition: opacity 1s, top 1s; 
+	opacity:0;
+
+
 }
 
 
 #lyQuiz .progress div.on, #lyQuiz .progress div.answered {
-	
-	background-color: #efbe5e;
-	
+
+background-color: #efbe5e;
+
 }
 
 #lyQuiz .progress div.correct::after {top: -5px; opacity:1;}
-
-
-
- 
 
 /* Intro */
 
@@ -90,18 +112,33 @@ display:inline-block; cursor: pointer; background-color: red; color:white; text-
 
 #lyQuiz .quiz { position: absolute; width:550px; top:225px; left: 1000px;} 
 #lyQuiz .quiz .txt {font-size:1.6em; margin: 0px 0px 20px 0px;}
+
 #lyQuiz .quiz .ans {
-	display: inline-block; font-size: 1.1em; width: 225px; border: 2px solid rgba(238,189,102,.4);
-	border-radius: 6px; padding:10px; margin: 0px 15px 15px 0px; position: relative;
-	}
+	display: inline-block; 
+	font-size: 1.1em; 
+	width: 225px; 
+	border: 2px solid rgba(238,189,102,.4);
+	border-radius: 6px; 
+	padding:10px; 
+	margin: 0px 15px 15px 0px; 
+	position: relative;
+}
 
 #lyQuiz .quiz .ans.selected {border-color: red;}
 #lyQuiz .quiz .ans.correct {border-color: green; }
 
 
 #lyQuiz .quiz .ans::after {
-	content:''; display:block; width: 20px; height: 20px; background:no-repeat 0px 0px; background-size: 20px 20px; position: absolute; top:5px; right:5px;
-	
+	content:''; 
+	display:block; 
+	width: 20px; 
+	height: 20px; 
+	background:no-repeat 0px 0px; 
+	background-size: 20px 20px; 
+	position: absolute; 
+	top:5px; 
+	right:5px;
+
 }
 
 #lyQuiz .quiz .ans.selected::after {background-image:url(../img/Incorrect_128.png);}
@@ -115,16 +152,16 @@ display:inline-block; cursor: pointer; background-color: red; color:white; text-
 #lyQuiz .quiz.answered .ans{ cursor: default; }
 
 #lyQuiz .quiz .ans.image{
-min-height: 100px;
-    padding: 0px;
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 250px 100px;
+	min-height: 100px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 250px 100px;
 }
 
 lyQuiz .quiz {
-    width: 500px;
-    height: 100px;
+	width: 500px;
+	height: 100px;
 }
 
 
@@ -145,21 +182,19 @@ lyQuiz .quiz {
 
 #lyQuiz .results .share {margin-top:40px;}
 #lyQuiz .results .share a.btn{
-	
+
 	margin-right: 20px; 
 	padding: 9px 15px 8px 42px;
 	background-repeat: no-repeat;
 	background-position: 10px 5px;	
 	background-size: 25px 25px;
-	
+
 } 
 
 #lyQuiz .results .share a.btn.email {
-	
-	
-	
-background-color: #f0a121; background-image:url(../img/icon_mail.png);}
-	
+
+	background-color: #f0a121; background-image:url(../img/icon_mail.png);}
+
 }
 
 #lyQuiz .active, #lyQuiz .inactive {transition: left 1.5s ease-in-out;}
@@ -170,60 +205,60 @@ background-color: #f0a121; background-image:url(../img/icon_mail.png);}
 
 @media screen and (max-width: 650px) {
 
-	
-	
-	body {padding:0px; margin: 0px;}
-	#lyQuiz {width: 100%;}
-	#lyQuiz h1 {width: 300px; font-size: 1.3em; top: 25px; left: 25px;}
-	#lyQuiz h1 span {line-height:20px; font-size:1.2em;}
-	#lyQuiz h2 {margin:0px;}
-	#lyQuiz h3 {font-size:2.2em; margin-bottom: 50px;}
-		
-	#lyQuiz .progress {width: 300px;top: 90px;left: 25px;}
-	
-	#lyQuiz .progress div {width:25px; height:25px; margin-right:20px;}
-	#lyQuiz .progress div::after {top:-30px; width:53px; height: 33px;}
-	
-	#lyQuiz .intro {width:300px; top:135px; left: 330px;}
-	#lyQuiz .quiz {width:300px; top: 135px;}
-	#lyQuiz .quiz .txt {font-size:1.4em; margin-bottom: 15px; width:200px;}
-	#lyQuiz .quiz .ans {font-size:1em; padding:5px 10px; margin-bottom: 10px;}
-	#lyQuiz .quiz .ans.img {min-height: 45px; background-size: auto 45px;}
-	#lyQuiz .quiz .ans.img:hover {background-color:#000;}
-	
-	
-	#lyQuiz .quiz .ans.image {
-    min-height: 100px;
-    padding: 0px;
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 100px 100px;
-    clear: both;
-    display: inline-block;
-    width: 100px;
+
+
+body {padding:0px; margin: 0px;}
+#lyQuiz {width: 100%;}
+#lyQuiz h1 {width: 300px; font-size: 1.3em; top: 25px; left: 25px;}
+#lyQuiz h1 span {line-height:20px; font-size:1.2em;}
+#lyQuiz h2 {margin:0px;}
+#lyQuiz h3 {font-size:2.2em; margin-bottom: 50px;}
+
+#lyQuiz .progress {width: 300px;top: 90px;left: 25px;}
+
+#lyQuiz .progress div {width:25px; height:25px; margin-right:20px;}
+#lyQuiz .progress div::after {top:-30px; width:53px; height: 33px;}
+
+#lyQuiz .intro {width:300px; top:135px; left: 330px;}
+#lyQuiz .quiz {width:300px; top: 135px;}
+#lyQuiz .quiz .txt {font-size:1.4em; margin-bottom: 15px; width:200px;}
+#lyQuiz .quiz .ans {font-size:1em; padding:5px 10px; margin-bottom: 10px;}
+#lyQuiz .quiz .ans.img {min-height: 45px; background-size: auto 45px;}
+#lyQuiz .quiz .ans.img:hover {background-color:#000;}
+
+
+#lyQuiz .quiz .ans.image {
+	min-height: 100px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 100px 100px;
+	clear: both;
+	display: inline-block;
+	width: 100px;
 }
-	
-	
-	#lyQuiz .quiz .ans {
-clear: both;
-display: block;
-font-size: 1.1em;
-width: 218px;
-border: 2px solid rgba(238,189,102,.4);
-border-radius: 6px;
-padding: 8px;
-margin: 0px 5px 5px 0px;
-position: relative;
+
+
+#lyQuiz .quiz .ans {
+	clear: both;
+	display: block;
+	font-size: 1.1em;
+	width: 218px;
+	border: 2px solid rgba(238,189,102,.4);
+	border-radius: 6px;
+	padding: 8px;
+	margin: 0px 5px 5px 0px;
+	position: relative;
 }
-	
-	
-	#lyQuiz .results {width: 260px; top:150px; }
-	#lyQuiz .results .share{margin-top:20px;}
-	#lyQuiz .results .a.btn{margin-bottom:20px;}
-	
-	#lyQuiz .active { left:20px; width:270px;}
-	#lyQuiz .intro.inactive, #lyQuiz .inactive.answered {left: -650px;}
-	
+
+
+#lyQuiz .results {width: 260px; top:150px; }
+#lyQuiz .results .share{margin-top:20px;}
+#lyQuiz .results .a.btn{margin-bottom:20px;}
+
+#lyQuiz .active { left:20px; width:270px;}
+#lyQuiz .intro.inactive, #lyQuiz .inactive.answered {left: -650px;}
+
 }
 
 
