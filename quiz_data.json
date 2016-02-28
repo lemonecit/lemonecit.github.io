@@ -21,30 +21,30 @@
 		"correct"  : 3
 	},
 	{
-		"question" : "One year on Saturn is equivalent to how many years on Earth?",
+		"question" : "What's name of the capital city in Australia?",
 		"answers"  : [
-			{"id"  : 0, "text" : "12"},
-			{"id"  : 1, "text" : "6"},
-			{"id"  : 2, "text" : "29"},
-			{"id"  : 3, "text" : "2"}
+			{"id"  : 0, "text" : "Sydney"},
+			{"id"  : 1, "text" : "Canberra"},
+			{"id"  : 2, "text" : "Perth"},
+			{"id"  : 3, "text" : "Dallas"}
 		],
-		"correct"  : 2
+		"correct"  : 1
 	},
 	{
-		"question" : "What is the name of Saturn's largest moon?",
+		"question" : "What is the name of Capital city in Luxembourg?",
 		"answers"  : [
-			{"id"  : 0, "text" : "Hercules"},
-			{"id"  : 1, "text" : "Europa"},
-			{"id"  : 2, "text" : "Goliath"},
-			{"id"  : 3, "text" : "Zeus"},
-			{"id"  : 4, "text" : "Titan"},
-			{"id"  : 5, "text" : "Triton"}
+			{"id"  : 0, "text" : "Paris"},
+			{"id"  : 1, "text" : "Luxembourg"},
+			{"id"  : 2, "text" : "Berlin"},
+			{"id"  : 3, "text" : "Amsterdam"},
+			{"id"  : 4, "text" : "Stockholm"},
+			{"id"  : 5, "text" : "Tel Aviv"}
 		],
-		"correct"  : 4,
-		"feedback" : "Though the names seem similar, Triton orbits the planet Neptune."
+		"correct"  : 1,
+		"feedback" : "Luxembourg is also the name of the capital city as their country."
 	},
 	{
-		"question" : "Saturn is visible from Earth without a telescope",
+		"question" : "Our moon is visible from Earth without a telescope",
 		"answers"  : [
 			{"id"  : 0, "text" : "True"},
 			{"id"  : 1, "text" : "False"}
