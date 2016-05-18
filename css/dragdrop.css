@@ -28,7 +28,7 @@ body {
 	top:25px; 
 	font-family:'Ubuntu', sans-serif;  
 	font-weight:400; 
-	left:36px; 
+	left:40px; 
 }
 
 
@@ -256,7 +256,7 @@ body {padding:0px; margin: 0px;}
 #lyQuiz .results .share{margin-top:20px;}
 #lyQuiz .results .a.btn{margin-bottom:20px;}
 
-#lyQuiz .active { left:20px; width:270px;}
+#lyQuiz .active { left:19px; width:270px;}
 #lyQuiz .intro.inactive, #lyQuiz .inactive.answered {left: -650px;}
 
 }
